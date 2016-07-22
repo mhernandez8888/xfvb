@@ -15,6 +15,4 @@ WORKDIR /usr/src/app
 
 CMD py.test
 
-ONBUILD COPY requirements.txt /usr/src/app/requirements.txt
-ONBUILD RUN pip install -r requirements.txt
-ONBUILD COPY . /usr/src/app
+
